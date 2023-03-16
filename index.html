@@ -6,11 +6,20 @@
 		<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<link rel="stylesheet" type="text/css" href="adaptivecss/adaptive1.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 	</head>
 	<body>
 		<div id="all">
 			<div id="menu">
 				<img src="photos/menuicon.png" id="menuimg" onClick="showdiv()">
+				<div id="invisible">
+					<div id="submenu">
+						
+						<div class="item"><a href="index.html">PAGE 1</a></div>
+						<div class="item"><a href="page2.html">PAGE 2</a></div>
+						<div class="item"><a href="page3.html">PAGE 3</a></div>
+					</div>
+				</div>
 			</div>
 			<div id="green">
 				<img src="photos/happykid.png" id="kids">
@@ -174,18 +183,14 @@
 		<a href="#green" id="totop">
 			<img src="arrow.webp">
 		</a>
-		<div id="invisible" onClick="hidediv()">
-			<div id="submenu">
-				
-				<div class="item"><a href="site.html">PAGE 1</a></div>
-				<div class="item"><a href="page2.html">PAGE 2</a></div>
-				<div class="item"><a href="page3.html">PAGE 3</a></div>
-			</div>
-		</div>
+
 		<script>
 			function showdiv () {
-				
-				document.getElementById('invisible').style.display="flex";
+				if(document.getElementById('invisible').style.display == "flex"){
+					document.getElementById('invisible').style.display="none";
+				}else{
+					document.getElementById('invisible').style.display="flex";
+				}
 			}
 			function hidediv () {
 				

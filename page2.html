@@ -5,23 +5,35 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="style2.css">
+		<link rel="stylesheet" type="text/css" href="adaptivecss/adaptive2.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 	</head>
 	<body>
 		<div id="menu">
 				<img src="photos/menuicon.png" id="menuimg" onClick="showdiv()">
-		</div>
+				<div id="invisible">
+					<div id="submenu">
+						
+						<div class="item"><a href="index.html">PAGE 1</a></div>
+						<div class="item"><a href="page2.html">PAGE 2</a></div>
+						<div class="item"><a href="page3.html">PAGE 3</a></div>
+					</div>
+				</div>
+			</div>
 		<div id="green">
 			<div id="divwimg">
 				<div id="goal4">
-					<img src="photos/hand.jfif">
+					
 					<p>
 						Goal 4 <br>
 						QUALITY EDUCATION
 					</p>
+					<div id="yellow">
+					</div>
 				</div>
+				
 			</div>
-			<div id="yellow">
-			</div>
+			
 		</div>
 		<div id="boxtitle">
 			<P id="title">
@@ -84,18 +96,14 @@
 				</li>
 			</ul>
 		</div>
-		<div id="invisible" onClick="hidediv()">
-			<div id="submenu">
-				
-				<div class="item"><a href="site.html">PAGE 1</a></div>
-				<div class="item"><a href="page2.html">PAGE 2</a></div>
-				<div class="item"><a href="page3.html">PAGE 3</a></div>
-			</div>
-		</div>
+		
 		<script>
 			function showdiv () {
-				
-				document.getElementById('invisible').style.display="flex";
+				if(document.getElementById('invisible').style.display == "flex"){
+					document.getElementById('invisible').style.display="none";
+				}else{
+					document.getElementById('invisible').style.display="flex";
+				}
 			}
 			function hidediv () {
 				
