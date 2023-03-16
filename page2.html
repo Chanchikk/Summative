@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+	<head>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="style2.css">
+	</head>
+	<body>
+		<div id="menu">
+				<img src="photos/menuicon.png" id="menuimg" onClick="showdiv()">
+		</div>
+		<div id="green">
+			<div id="divwimg">
+				<div id="goal4">
+					<img src="photos/hand.jfif">
+					<p>
+						Goal 4 <br>
+						QUALITY EDUCATION
+					</p>
+				</div>
+			</div>
+			<div id="yellow">
+			</div>
+		</div>
+		<div id="boxtitle">
+			<P id="title">
+				FACTS <br> AND <br> FIGURES 	
+			</p>
+		</div>
+		<img src="photos/logo.png" id="logo">
+		
+		<div id="red">
+			<ul id="white">
+				<li class="text">
+					
+					Before the coronavirus crisis, 
+					projections showed that more 
+					than 200 million children would 
+					be out of school, and only 60 per
+					cent of young people would be 
+					completing upper secondary education 
+					in 2030.
+					
+				</li>
+				<li class="text">
+					
+					Before the coronavirus crisis, 
+					the proportion of children and
+					youth out of primary and secondary 
+					school had declined from 26 per cent 
+					in 2000 to 19 per cent in 2010 and 17
+					per cent in 2018.
+					
+				</li>
+				<li class="text">
+					More than half of children that 
+					have not enrolled in school live 
+					in sub-Saharan Africa, and more 
+					than 85 per cent of children in 
+					sub-Saharan Africa are not learning 
+					the minimum 
+				</li>
+				<li class="text">
+					617 million youth worldwide lack 
+					basic mathematics and literacy skills.
+				</li>
+				<li class="text">
+					Some 750 million adults – two thirds of 
+					them women – remained illiterate in 2016.
+					Half of the global illiterate population 
+					lives in South Asia, and a quarter live in 
+					sub-Saharan Africa.
+				</li>
+				<li class="text">
+					In 10 low- and middle-income countries, 
+					children with disabilities were 19per 
+					cent less likely to achieve minimum 
+					proficiency in reading than those without 
+					disabilities.	
+				</li>
+				<li class="text">
+					4 million refugee children were out of school in 2017	
+				</li>
+			</ul>
+		</div>
+		<div id="invisible" onClick="hidediv()">
+			<div id="submenu">
+				
+				<div class="item"><a href="site.html">PAGE 1</a></div>
+				<div class="item"><a href="page2.html">PAGE 2</a></div>
+				<div class="item"><a href="page3.html">PAGE 3</a></div>
+			</div>
+		</div>
+		<script>
+			function showdiv () {
+				
+				document.getElementById('invisible').style.display="flex";
+			}
+			function hidediv () {
+				
+				document.getElementById('invisible').style.display="none";
+			}
+		</script>
+	</body>
+</html>
