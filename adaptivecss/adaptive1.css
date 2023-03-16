@@ -1,0 +1,128 @@
+@media (max-width: 768px){
+	#menu{
+		width:100%;
+		background:white;
+		display:flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		height: 30px;
+		
+	
+	position:fixed;
+	top: 0;
+	left: 0;
+	}
+	#menuimg{
+	width: auto;
+}
+	#kids{
+		width: 40%;
+		
+	}
+	#green{
+		display: flex;
+		background:#28CD13;
+		height:300px;
+		width: 100%;
+		justify-content: center;
+
+	}
+	#red{
+	display:flex;
+	background: #FF0000;
+	height: 210px;
+	width:100%;
+	justify-content: center;
+	align-items: center;
+	font-size: 70px;
+}
+	h1{
+		font-size:20px;
+	}
+	p{
+		font-size: 16px;
+	}
+	#goals{
+	width: 99%;
+	display: flex;	
+	margin-top:5px;
+	flex-wrap: wrap;
+	margin: 0;
+
+}
+	.goal{
+		display: flex;
+		flex-direction: row;
+		width: 50%;
+		margin-top: 50px;
+		align-items: flex-start;
+	}
+	.image{
+		width: 80px;
+	}
+	#submenu{
+		background: white;
+		transform: translate(0, 0%);	
+		width: 30%;
+
+		display:flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+}
+	#invisible{
+		bottom: -100px;
+	}
+}
+@media (max-width: 425px){
+	#green{
+		display: flex;
+		background:#28CD13;
+		height:200px;
+		width: 100%;
+		justify-content: center;
+
+	}
+	#kids{
+		width: 60%;
+
+		
+	}
+	#all{
+		margin: 0;
+	}
+	#goals{
+
+	display: flex;	
+	margin-top:5px;
+	flex-wrap: wrap;
+	margin: 0;
+
+}
+#red{
+	display:flex;
+	background: #FF0000;
+	height: 100px;
+	width:100%;
+	justify-content: center;
+	align-items: center;
+	font-size: 50px;
+}
+
+.goal{
+	display: flex;
+	flex-direction: row;
+	width:95%;
+	margin-top: 50px;
+	margin-left: auto;
+}
+}
+@media (max-width: 2560px){
+	h1{
+	font-size:35px;
+}
+p{
+	font-size: 28px;
+}
+}
