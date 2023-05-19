@@ -1,0 +1,170 @@
+body{
+	font-family: 'Bebas Neue', cursive;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+#menu{
+	width:100%;
+	
+	background:white;
+	
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	z-index: 3;
+	position:fixed;
+	top: 0;
+	left: 0;
+}
+#menuimg{
+	width: 50px;
+	height: 100%;
+}
+#menuimg img{
+	width:100%;
+}
+#submenu{
+	background: white;
+	transform: translate(0, 0%);	
+	width: 10%;
+
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+}
+.item a{
+	text-decoration: none;
+	color: #282828;
+	display: block;
+	font-size: 45px;
+	
+	
+}
+#invisible{
+	position: absolute;
+	height: 1000px;
+	width: 100%;
+	cursor: pointer;
+	left: 0;
+	top: 0;
+	display: none;
+	z-index: 1;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	margin-top: 50px;
+}
+#green{
+	display: flex;
+	background:#28CD13;
+	height:470px;
+	width: 100%;
+	justify-content: end;
+	align-items: center;
+	flex-direction: column;
+}
+img{
+	
+	margin:0;
+}
+#kids{
+	width: 20%;
+
+}
+#green p{
+	margin: 0;
+	font-size: 120px;
+}
+#questions{
+	font-size: 50px;
+
+}
+#questions p{
+	margin-top: 30px;
+	margin-bottom: 0;
+}
+.container{
+	display: inline-block;
+
+	position: relative;
+	padding-left: 55px;
+	
+}
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+.big_container{
+	flex-direction: column;
+	display: flex;
+	align-items: flex-start;
+	margin-bottom: 50px;
+}
+.radiobutton{
+	border-radius: 0%;
+}
+
+.checkmark {
+  position: absolute;
+
+  height: 40px;
+  width:40px;
+  left: 0;
+  top: 10px;
+  background-color: #eee;
+  border-radius: 0;
+}
+
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+.container input:checked ~ .checkmark {
+  background-color: #30cc14;
+}
+
+ul{
+	list-style-type: none;
+	
+	
+}
+li::before{
+	content: "";
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	background-color: red;
+}
+label{
+	font-size: 35px;
+}
+
+.bttn {
+  background-color: #9e9b91;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 40px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.bttn:active{
+
+background-color: rgb(123, 180, 17);
+
+}
+#result{
+	font-size: 100px;
+}

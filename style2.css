@@ -13,7 +13,7 @@
 	left: 0;
 }
 #menuimg{
-	width:50px;
+	width: 50px;
 	height: 100%;
 }
 #menuimg img{
@@ -23,13 +23,13 @@
 	background: white;
 	transform: translate(0, 0%);	
 	width: 10%;
-	margin-top: -470px;
+
 	display:flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	
 }
-
 .item a{
 	text-decoration: none;
 	color: #282828;
@@ -39,22 +39,18 @@
 	
 }
 #invisible{
-
-
-	
-	position: fixed;
-	height: 100%;
+	position: absolute;
+	height: 1000px;
 	width: 100%;
 	cursor: pointer;
-	top: 0;
 	left: 0;
+	top: 0;
 	display: none;
 	z-index: 1;
-	
-	
 	flex-direction: column;
-	justify-content: center;
+	justify-content: flex-start;
 	align-items: center;
+	margin-top: 50px;
 }
 #green{
 	
@@ -85,30 +81,29 @@ body{
 #yellow{
 	display: flex;
 	background:#FFFB44;
-	height:500px;
-	width: 50%;
+	height:65%;
+	width: 93%;
 	justify-content: center;
 	align-content: flex-end;
-	position: relative;
-	top: -254px;
-	right: -426px;
+	position: absolute;
+	top: 191px;
+	right: -49px;
 	z-index: -1;
 }
 #goal4{
-	width: 720px;
-	height: 500px;
+	width: 640px;
+	height: 440px;
 	background-image: url('photos/hand.jfif');
+	background-size: 100% 100%;
+	position: relative;	
 }
-#goal4 img{
-	width:100%;
-	height: 100%;
-}
+
 #goal4 p{
-	position: relative;
-	top: -199px;
-	right: -319px;
+	position: absolute;
+	bottom: -50px;
+	right: 16px;
 	color: white;
-	font-size: 65px;
+	font-size: 55px;
 	text-align: left;
 	line-height: 0.9;
 }
@@ -124,8 +119,8 @@ body{
 	width: 75%;
 }
 #red{
-	width:75%;
-	height: 1300px;
+	width:86%;
+	
 	background-color: #D22333;
 	margin-top: 50px;
 	display: flex;
@@ -147,4 +142,3 @@ body{
 	margin-top: 40px;
 	margin-right: 10px;
 }
-
