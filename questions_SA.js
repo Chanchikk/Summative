@@ -11,7 +11,7 @@ function showdiv () {
 			}
 			
 		 var num_of_question = 1;
-		var amount_of_question = 20;
+		var amount_of_question = 25;
 function check(){
 
 	correct_answer = 2;

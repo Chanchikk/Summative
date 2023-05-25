@@ -149,7 +149,7 @@ label{
 }
 
 .bttn {
-  background-color: #9e9b91;
+  background-color: #4CAF50;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -159,11 +159,6 @@ label{
   font-size: 40px;
   margin: 4px 2px;
   cursor: pointer;
-}
-.bttn:active{
-
-background-color: rgb(123, 180, 17);
-
 }
 #result{
 	font-size: 100px;
